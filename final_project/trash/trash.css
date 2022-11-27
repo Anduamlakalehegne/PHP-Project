@@ -1,0 +1,17 @@
+.a h3{
+    margin-top: -480px;
+    margin-left: 200px;
+}
+.a{
+    margin-left: 180px;
+}
+.a img{
+    width: 400px;
+    height: 550px;
+}
+.img{
+    background-color: brown;
+}
+.img :hover{
+    background: rgba(240, 93, 93, 0.7);
+}

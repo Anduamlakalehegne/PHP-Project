@@ -1,0 +1,83 @@
+/*----------------------login---------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'poppins', 'sans-serif';
+}
+body{
+     
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.container{
+    
+    max-width: 470px;
+    width: 290%;
+    background: #fff;
+    border-radius: 20px;
+    margin-left: -200px;
+    margin-top: 10px;
+    padding: 20px ;  
+    border-color: black; 
+    border: 1px solid #00000031;
+    padding-left: 38px;
+    padding-top: 50px;
+}
+
+.form-control{
+    height: 40px;
+    width: 320%;
+    margin: 5px 0;
+    border: 1px solid #00000031;
+    font-size: 15px;
+    background: #f5f6f7;
+    outline: none;
+    border-radius: 6px;
+    padding: 2px 12px;
+    margin-right: -10px;
+    margin-top: 20px;
+}
+
+.yy{
+    
+    width: 200px;
+    margin-top: 10px;
+    
+}
+.btn{
+    padding-top: 1px;
+    margin-top: 160px;
+    margin-left: -10px;
+    border: none;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    background: #0557ee;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 200px;
+    height: 40px;
+    
+}
+.zz{
+    display: block;
+    margin-bottom: -190px;
+    margin-top: 50px;
+    color: blue;
+    text-decoration: none;
+    margin-left: 290px;
+}
+
+
+
+
+
+

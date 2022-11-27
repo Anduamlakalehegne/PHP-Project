@@ -1,0 +1,234 @@
+
+
+.body{
+  font-family: 'poppins', 'sans-serif';
+  background: #dfe3e7;
+}
+.container{
+  width: 80%;
+  margin-top: 00px;
+  background: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 80px 35px 10px 35px;
+  height: 590px;
+  margin-left: -10px;
+  justify-content: center;
+}
+
+.titles{
+  margin-left: -100px;
+  margin-bottom: 25px;
+  color: rgb(19, 22, 202);
+}
+#display{
+    display: none;
+}
+#play{
+  margin-top: -100px;
+}
+.ww{
+    margin-top: 25px;
+    font-size: 27px;
+    margin-left: 180px;
+    
+}
+.container .form-outer{
+  width: 130%;
+  overflow: hidden;
+}
+.container .form-outer form{
+  display: flex;
+  width: 400%;
+}
+.form-outer form .page{
+  width: 25%;
+  transition: margin-left 0.3s ease-in-out;
+}
+
+.form-outer form .page .field{
+  
+  height: 44px;
+  margin: 23px 0;
+  position: relative;
+  width: calc(100% / 2 - 20px);
+  display: inline-block;
+  margin-left: 10px;
+}
+form .page .field .label{
+  position: absolute;
+  top: -25px;
+  font-weight: 500;
+  margin-left: 0px;
+  
+}
+form .page .field input{
+  height: 40px;
+  width: 98%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  transition: all 0.3s ease;
+  margin-left: -10px;
+  background: #eff3f7;
+}
+form .page .field input:hover{
+  border-color: #0e22d8;
+}
+
+.field{
+  padding-right: 20px;
+}
+form .page .field select{
+  width: 100%;
+  padding-left: 10px;
+  font-size: 17px;
+  font-weight: 500;
+}
+form .page .field button{
+  width: 90%;
+  height: calc(100% + 5px);
+  border: none;
+  background: #d33f8d;
+  margin-top: -20px;
+  border-radius: 5px;
+  color: #fff;
+
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  transition: 0.5s ease;
+  display: inline;
+  
+}
+form .page .field button:hover{
+  background: rgb(116, 26, 68);
+}
+form .page .btns button{
+  margin-top: -20px!important;
+}
+form .page .btns button.prev{
+  margin-right: 3px;
+  font-size: 17px;
+}
+form .page .btns button.next{
+  margin-left: 13px;
+}
+.container .progress-bar{
+  display: flex;
+  margin: 20px -180px;
+  user-select: none;
+  margin-left: -50px;
+  margin-top: 40px;
+}
+.container .progress-bar .step{
+  text-align: center;
+  width: 100%;
+  position: relative;
+}
+.container .progress-bar .step p{
+  font-weight: 500;
+  font-size: 15px;
+  color: #000;
+  margin-bottom: 8px;
+}
+.progress-bar .step .bullet{
+  height: 25px;
+  width: 25px;
+  border: 2px solid #000;
+  display: inline-block;
+  border-radius: 50%;
+  position: relative;
+  transition: 0.2s;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  margin-top: 1px ;
+  
+}
+.progress-bar .step .bullet.active{
+  border-color: #d43f8d;
+  background: #d43f8d;
+}
+.progress-bar .step .bullet span{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.progress-bar .step .bullet.active span{
+  display: none;
+}
+.progress-bar .step .bullet:before,
+.progress-bar .step .bullet:after{
+  position: absolute;
+  content: '';
+  bottom: 9px;
+  height: 2.5px;
+  background: #262626;
+}
+.progress-bar .step .bullet.active:after{
+  background: #d43f8d;
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: animate 0.3s linear forwards;
+}
+@keyframes animate {
+  100%{
+    transform: scaleX(1);
+  }
+}
+.progress-bar .step:last-child .bullet:before,
+.progress-bar .step:last-child .bullet:after{
+  display: none;
+}
+.progress-bar .step p.active{
+  color: #d43f8d;
+  transition: 0.2s linear;
+}
+.progress-bar .step .check{
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  font-size: 15px;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+.progress-bar .step .check.active{
+  display: block;
+  color: #fff;
+}
+.page .slide-page{
+  margin-top: 2000px;
+
+  
+}
+
+@media(max-width: 459px){
+    .container{
+      flex-direction: column;
+    }
+    }
+
+
+    .buttton{
+      margin-right: -5px;
+      margin-left: 900px;
+      padding-bottom: -50px;
+      width: 50px;
+      margin-top: 20px;
+    }
+    .field select{
+      height: 40px;
+      width: 98%;
+      outline: none;
+      font-size: 16px;
+      border-radius: 5px;
+      padding-left: 15px;
+      border: 1px solid #ccc;
+      transition: all 0.3s ease;
+      margin-left: -10px;
+      background: #eff3f7;
+
+    }

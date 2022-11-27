@@ -1,0 +1,110 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins', 'sans-serif';
+    box-sizing: border-box;
+}
+body
+{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    background-image: url(../../images/bg3.jpg);
+    font-family: 'poppins', 'sans-serif';
+}
+#container
+{
+    height: auto;
+    width: 450px;
+    background: #fff;
+    padding: 25px;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: -2px 2px 12px rgba(0,0,0,0.3);
+}
+#container h2
+{
+    font-size: 40px;
+}
+#container p
+{
+    padding: 6px 0 5px 0;
+    font-size: 18px;
+    color: #000000a1;
+}
+#container #line
+{
+    height: 1px;
+    width: 100%;
+    background: #00000060;
+    margin: 10px 0 20px 0;
+}
+#alert
+{
+    height: auto;
+    width: 100%;
+    background: #ee05503b;
+    padding: 0 15px;
+    font-size: 19px;
+    line-height: 40px;
+    margin: 10px 0;
+    color: #000;
+    border-radius: 4px;
+}
+#container input
+{
+    height: 40px;
+    width: 99%;
+    margin: 5px 0;
+    border: 1px solid #00000031;
+    font-size: 15px;
+    background: #f5f6f7;
+    outline: none;
+    border-radius: 6px;
+    padding: 0px 12px;
+}
+#container .name
+{
+    height: 40px;
+    width: 49%;
+}
+#container input[type="radio"]
+{
+    height: 14px;
+    width: 14px;
+    margin: 15px 0;
+}
+#container label
+{
+    margin: 0px 8px;
+}
+#container input[type="submit"]
+{
+    height: 45px;
+    border: none;
+    background: #0557ee;
+    color: #fff;
+    font-size: 20px;
+    margin: 5px 0;
+    cursor: pointer;
+}
+#container h5
+{
+    font-size: 11px;
+    color: #969696;
+    font-weight: 100;
+}
+#container h3
+{
+    font-size: 16px;
+    font-weight: 100;
+    margin: 5px 0 20px 0;
+}
+#container h3 a
+{
+    text-decoration: none;
+    color: #0557ee;
+    font-weight: bold;
+}

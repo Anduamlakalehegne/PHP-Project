@@ -1,0 +1,217 @@
+
+* {
+    box-sizing: border-box;
+}
+body>div{
+    font-family: 'poppins', 'sans-serif';
+}
+.table_responsive {
+    
+    
+    background-color: #efefef33;
+    padding: 15px;
+    overflow: auto;
+    margin: auto;
+    border-radius: 4px;
+    width: 950px;
+    margin-bottom: 20px;
+    margin-top: 350px;
+}
+ h3{
+    margin-left: 450px;
+    margin-bottom: 20px;
+}
+.table_responsivee {
+    
+    
+    background-color: #efefef33;
+    padding: 15px;
+    overflow: auto;
+    margin: auto;
+    border-radius: 4px;
+    width: 950px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+table {
+    width: 100px;
+    font-size: 16px;
+    color: #444;
+    white-space: nowrap;
+    border-collapse: collapse;
+    height: 10px;
+    overflow: hidden;
+    margin-bottom: 2px;
+    
+}
+table>th {
+    background: rgb(4, 72, 136);
+    color: #fff;
+    
+}
+table>thead th {
+    padding: 15px;
+    
+}
+table th,
+table td {
+    border: 1px solid #00000017;
+    padding: 10px 15px;
+}
+table>tbody>tr>td>img {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    box-shadow: 0 2px 6px #0003;
+}
+.action_btn {
+    justify-content: center;
+    gap: 10px;
+}
+.action_btnn {
+    justify-content: center;
+    gap: 10px;
+}
+.action_btn>a {
+    text-decoration: none;
+    color: #444;
+    background: #fff;
+    border: 1px solid;
+    border-color: rgb(9, 50, 185);
+    padding: 7px 20px;
+    font-weight: bold;
+    border-radius: 3px;
+    transition: 0.3s ease-in-out;
+}
+.action_btnn>a {
+    text-decoration: none;
+    background: #fff;
+    border: 1px solid;
+    border-color: rgb(255, 0, 0);
+    padding: 7px 20px;
+    font-weight: bold;
+    border-radius: 3px;
+    transition: 0.3s ease-in-out;
+}
+.action_btnnn>a {
+    text-decoration: none;
+    color: #444;
+    background: #fff;
+    border: 1px solid;
+    padding: 7px 20px;
+    font-weight: bold;
+    border-radius: 3px;
+    transition: 0.3s ease-in-out;
+    border-color: rgb(39, 75, 194);
+}
+.action_btn>a:nth-child(1) {
+    border-color: #26a69a;
+}
+.action_btn>a:nth-child(2) {
+    border-color: orange;
+}
+.action_btn>a:hover {
+    box-shadow: 0 3px 8px #0003;
+}
+table>tbody>tr {
+    background-color: #fff;
+    transition: 0.3s ease-in-out;
+}
+table>tbody>tr:nth-child(even) {
+    background-color: rgb(238, 238, 238);
+}
+table>tbody>tr:hover{
+    filter: drop-shadow(0px 2px 6px #0002);
+}
+
+@media(max-width: 800px){
+    .table_responsive {
+    
+    
+        background-color: #efefef33;
+        padding: 15px;
+        overflow: auto;
+        margin: auto;
+        border-radius: 4px;
+        width: 400px;
+        margin-bottom: 20px;
+        margin-top: 350px;
+    }
+     h3{
+        margin-left: 450px;
+        margin-bottom: 20px;
+    }
+    .table_responsivee {
+        
+        
+        background-color: #efefef33;
+        padding: 15px;
+        overflow: auto;
+        margin: auto;
+        border-radius: 4px;
+        width: 400px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        margin-bottom: 100px;
+    }
+    table {
+        width: 90px;
+        font-size: 16px;
+        color: #444;
+        white-space: nowrap;
+        border-collapse: collapse;
+        height: 10px;
+        overflow: hidden;
+        margin-bottom: 2px;
+        
+    }
+
+    }
+    @media(max-width: 700px){
+        .table_responsive {
+        
+        
+            background-color: #efefef33;
+            padding: 15px;
+            overflow: auto;
+            margin: auto;
+            border-radius: 4px;
+            width: 400px;
+            margin-bottom: 20px;
+            margin-top: 350px;
+        }
+         h3{
+            margin-left: 450px;
+            margin-bottom: 20px;
+        }
+        .table_responsivee {
+            
+            
+            background-color: #efefef33;
+            padding: 15px;
+            overflow: auto;
+            margin: auto;
+            border-radius: 4px;
+            width: 400px;
+            margin-bottom: 20px;
+            margin-top: 10px;
+            margin-bottom: 100px;
+        }
+        table {
+            width: 100px;
+            font-size: 16px;
+            color: #444;
+            white-space: nowrap;
+            border-collapse: collapse;
+            height: 10px;
+            overflow: hidden;
+            margin-bottom: 2px;
+            
+        }
+    
+        }
+    
